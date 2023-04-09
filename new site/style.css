@@ -1,0 +1,71 @@
+        body {
+            background-image: url(23.jpg);
+        }
+        
+        h1 {
+            text-align: center;
+            font-size: 50px;
+        }
+        
+        .box {
+            width: 300px;
+            height: 200px;
+            background-color: rgb(134, 172, 216);
+            background-image: url(12.jpg);
+            background-size: 80%;
+            position: relative;
+            margin-left: 0%;
+            /*margin dena h jb box hilana h chahe vo top ho ya left ya loda lassan*/
+        }
+        
+        .box:hover {
+            cursor: pointer;
+        }
+        
+        input {
+            cursor: pointer;
+        }
+        
+        button {
+            cursor: pointer;
+        }
+        
+        label {
+            color: rgba(211, 218, 12, 0.712);
+            font-size: 20px;
+            font-weight: bold;
+        }
+        
+        button:hover {
+            color: aqua;
+        }
+        
+        nav {
+            background-color: transparent;
+            color: #fff;
+            padding: 60px;
+        }
+        /*apply styleto the navlinks*/
+        
+        nav a {
+            color: #8e08f4;
+            text-decoration: none;
+            padding: 0px;
+            margin-right: 10px;
+            border-radius: 100px;
+        }
+        /*aplly hover styles to thenav bar links */
+        
+        nav a:hover {
+            background-color: #fff;
+            color: blueviolet;
+        }
+        /*aplly animation to the nav bars link*/
+        
+        nav a {
+            transition: all 0.3s ease-in-out;
+        }
+        
+        nav a:hover {
+            transform: scale(1.1);
+        }
